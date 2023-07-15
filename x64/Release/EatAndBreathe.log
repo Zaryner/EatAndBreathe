@@ -1,0 +1,274 @@
+﻿  EatAndBreathe.cpp
+D:\0Projects\EatAndBreathe\Entities.h(67,13): warning C4099: Item: имя типа, ранее отображенное с помощью "class", теперь отображено с помощью "struct"
+D:\0Projects\EatAndBreathe\Entities.h(67,8): message : см. объявление "Item"
+D:\0Projects\EatAndBreathe\Entities.h(72): warning C4114: Множественное использование одного и того же квалификатора типа.
+D:\0Projects\EatAndBreathe\Entities.h(72,6): warning C4114: Множественное использование одного и того же квалификатора типа.
+D:\0Projects\EatAndBreathe\Entities.h(87): warning C4114: Множественное использование одного и того же квалификатора типа.
+D:\0Projects\EatAndBreathe\Entities.h(87,8): warning C4114: Множественное использование одного и того же квалификатора типа.
+D:\0Projects\EatAndBreathe\Entities.h(88,34): warning C4114: Множественное использование одного и того же квалификатора типа.
+D:\0Projects\EatAndBreathe\Entities.h(92,17): warning C4114: Множественное использование одного и того же квалификатора типа.
+D:\0Projects\EatAndBreathe\Entities.h(257,13): warning C4114: Множественное использование одного и того же квалификатора типа.
+D:\0Projects\EatAndBreathe\EatAndBreathe.cpp(17,1): warning C4005: PI: изменение макроопределения
+D:\0Projects\EatAndBreathe\EngineFuncs.h(4,1): message : см. предыдущее определение "PI"
+D:\0Projects\EatAndBreathe\EatAndBreathe.cpp(113,30): warning C4244: аргумент: преобразование "float" в "unsigned int", возможна потеря данных
+D:\0Projects\EatAndBreathe\EatAndBreathe.cpp(126,29): warning C4244: аргумент: преобразование "float" в "const int", возможна потеря данных
+D:\0Projects\EatAndBreathe\EatAndBreathe.cpp(138,19): warning C4244: аргумент: преобразование "const int" в "const float", возможна потеря данных
+D:\0Projects\EatAndBreathe\EatAndBreathe.cpp(140,29): warning C4244: аргумент: преобразование "float" в "const int", возможна потеря данных
+D:\0Projects\EatAndBreathe\EatAndBreathe.cpp(152,19): warning C4244: аргумент: преобразование "const int" в "const float", возможна потеря данных
+D:\0Projects\EatAndBreathe\EatAndBreathe.cpp(154,29): warning C4244: аргумент: преобразование "float" в "const int", возможна потеря данных
+D:\0Projects\EatAndBreathe\EatAndBreathe.cpp(166,22): warning C4244: аргумент: преобразование "const int" в "const float", возможна потеря данных
+D:\0Projects\EatAndBreathe\EatAndBreathe.cpp(171,46): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+D:\0Projects\EatAndBreathe\EatAndBreathe.cpp(171,24): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+D:\0Projects\EatAndBreathe\EatAndBreathe.cpp(176,39): warning C4244: аргумент: преобразование "float" в "unsigned int", возможна потеря данных
+D:\0Projects\EatAndBreathe\EatAndBreathe.cpp(182,32): warning C4244: аргумент: преобразование "float" в "unsigned int", возможна потеря данных
+D:\0Projects\EatAndBreathe\EatAndBreathe.cpp(193,44): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+D:\0Projects\EatAndBreathe\EatAndBreathe.cpp(193,23): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+D:\0Projects\EatAndBreathe\EatAndBreathe.cpp(196,45): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+D:\0Projects\EatAndBreathe\EatAndBreathe.cpp(196,24): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+D:\0Projects\EatAndBreathe\EatAndBreathe.cpp(208,77): warning C4244: аргумент: преобразование "T" в "float", возможна потеря данных
+          with
+          [
+              T=unsigned int
+          ]
+D:\0Projects\EatAndBreathe\EatAndBreathe.cpp(208,44): warning C4244: аргумент: преобразование "T" в "float", возможна потеря данных
+          with
+          [
+              T=unsigned int
+          ]
+D:\0Projects\EatAndBreathe\EatAndBreathe.cpp(210,58): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+D:\0Projects\EatAndBreathe\EatAndBreathe.cpp(210,33): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+D:\0Projects\EatAndBreathe\EatAndBreathe.cpp(247,46): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+D:\0Projects\EatAndBreathe\EatAndBreathe.cpp(247,24): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+D:\0Projects\EatAndBreathe\EatAndBreathe.cpp(252,33): warning C4244: аргумент: преобразование "float" в "unsigned int", возможна потеря данных
+D:\0Projects\EatAndBreathe\EatAndBreathe.cpp(257,39): warning C4244: аргумент: преобразование "float" в "unsigned int", возможна потеря данных
+D:\0Projects\EatAndBreathe\EatAndBreathe.cpp(263,32): warning C4244: аргумент: преобразование "float" в "unsigned int", возможна потеря данных
+D:\0Projects\EatAndBreathe\EatAndBreathe.cpp(274,59): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+D:\0Projects\EatAndBreathe\EatAndBreathe.cpp(274,37): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+D:\0Projects\EatAndBreathe\EatAndBreathe.cpp(276,57): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+D:\0Projects\EatAndBreathe\EatAndBreathe.cpp(276,36): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+D:\0Projects\EatAndBreathe\EatAndBreathe.cpp(294,57): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+D:\0Projects\EatAndBreathe\EatAndBreathe.cpp(294,36): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+D:\0Projects\EatAndBreathe\EatAndBreathe.cpp(326,76): warning C4244: аргумент: преобразование "T" в "float", возможна потеря данных
+          with
+          [
+              T=unsigned int
+          ]
+D:\0Projects\EatAndBreathe\EatAndBreathe.cpp(326,43): warning C4244: аргумент: преобразование "T" в "float", возможна потеря данных
+          with
+          [
+              T=unsigned int
+          ]
+D:\0Projects\EatAndBreathe\EatAndBreathe.cpp(332,83): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+D:\0Projects\EatAndBreathe\EatAndBreathe.cpp(332,45): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+D:\0Projects\EatAndBreathe\EatAndBreathe.cpp(374,31): warning C4244: аргумент: преобразование "float" в "unsigned int", возможна потеря данных
+D:\0Projects\EatAndBreathe\EatAndBreathe.cpp(387,39): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+D:\0Projects\EatAndBreathe\EatAndBreathe.cpp(387,19): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+D:\0Projects\EatAndBreathe\EatAndBreathe.cpp(391,48): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+D:\0Projects\EatAndBreathe\EatAndBreathe.cpp(391,28): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+D:\0Projects\EatAndBreathe\EatAndBreathe.cpp(396,79): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+D:\0Projects\EatAndBreathe\EatAndBreathe.cpp(396,59): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+D:\0Projects\EatAndBreathe\EatAndBreathe.cpp(407,52): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+D:\0Projects\EatAndBreathe\EatAndBreathe.cpp(407,31): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+D:\0Projects\EatAndBreathe\EatAndBreathe.cpp(428,43): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+D:\0Projects\EatAndBreathe\EatAndBreathe.cpp(428,22): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+D:\0Projects\EatAndBreathe\EatAndBreathe.cpp(434,42): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+D:\0Projects\EatAndBreathe\EatAndBreathe.cpp(434,21): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+D:\0Projects\EatAndBreathe\EatAndBreathe.cpp(440,48): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+D:\0Projects\EatAndBreathe\EatAndBreathe.cpp(440,27): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+D:\0Projects\EatAndBreathe\EatAndBreathe.cpp(446,41): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+D:\0Projects\EatAndBreathe\EatAndBreathe.cpp(446,21): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+D:\0Projects\EatAndBreathe\EatAndBreathe.cpp(459,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+D:\0Projects\EatAndBreathe\EatAndBreathe.cpp(462,107): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+D:\0Projects\EatAndBreathe\EatAndBreathe.cpp(462,74): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+D:\0Projects\EatAndBreathe\EatAndBreathe.cpp(463,105): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+D:\0Projects\EatAndBreathe\EatAndBreathe.cpp(463,72): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+D:\0Projects\EatAndBreathe\EatAndBreathe.cpp(489,53): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+D:\0Projects\EatAndBreathe\EatAndBreathe.cpp(489,26): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+D:\0Projects\EatAndBreathe\EatAndBreathe.cpp(511,154): warning C4244: аргумент: преобразование "int" в "const float", возможна потеря данных
+D:\0Projects\EatAndBreathe\EatAndBreathe.cpp(517,70): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+D:\0Projects\EatAndBreathe\EatAndBreathe.cpp(523,70): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+D:\0Projects\EatAndBreathe\EatAndBreathe.cpp(529,70): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+D:\0Projects\EatAndBreathe\EatAndBreathe.cpp(535,70): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+D:\0Projects\EatAndBreathe\EatAndBreathe.cpp(540,156): warning C4244: аргумент: преобразование "int" в "const float", возможна потеря данных
+D:\0Projects\EatAndBreathe\EatAndBreathe.cpp(545,156): warning C4244: аргумент: преобразование "int" в "const float", возможна потеря данных
+D:\0Projects\EatAndBreathe\EatAndBreathe.cpp(552,113): warning C4244: аргумент: преобразование "int" в "const float", возможна потеря данных
+D:\0Projects\EatAndBreathe\EatAndBreathe.cpp(552,131): warning C4305: аргумент: усечение из "double" в "T"
+          with
+          [
+              T=float
+          ]
+D:\0Projects\EatAndBreathe\EatAndBreathe.cpp(557,122): warning C4244: аргумент: преобразование "int" в "const float", возможна потеря данных
+D:\0Projects\EatAndBreathe\EatAndBreathe.cpp(557,140): warning C4305: аргумент: усечение из "double" в "T"
+          with
+          [
+              T=float
+          ]
+D:\0Projects\EatAndBreathe\EatAndBreathe.cpp(562,111): warning C4244: аргумент: преобразование "int" в "const float", возможна потеря данных
+D:\0Projects\EatAndBreathe\EatAndBreathe.cpp(562,129): warning C4305: аргумент: усечение из "double" в "T"
+          with
+          [
+              T=float
+          ]
+D:\0Projects\EatAndBreathe\EatAndBreathe.cpp(567,120): warning C4244: аргумент: преобразование "int" в "const float", возможна потеря данных
+D:\0Projects\EatAndBreathe\EatAndBreathe.cpp(567,138): warning C4305: аргумент: усечение из "double" в "T"
+          with
+          [
+              T=float
+          ]
+D:\0Projects\EatAndBreathe\EatAndBreathe.cpp(572,122): warning C4244: аргумент: преобразование "int" в "const float", возможна потеря данных
+D:\0Projects\EatAndBreathe\EatAndBreathe.cpp(572,140): warning C4305: аргумент: усечение из "double" в "T"
+          with
+          [
+              T=float
+          ]
+D:\0Projects\EatAndBreathe\EatAndBreathe.cpp(577,133): warning C4244: аргумент: преобразование "int" в "const float", возможна потеря данных
+D:\0Projects\EatAndBreathe\EatAndBreathe.cpp(577,151): warning C4305: аргумент: усечение из "double" в "T"
+          with
+          [
+              T=float
+          ]
+D:\0Projects\EatAndBreathe\EatAndBreathe.cpp(582,122): warning C4244: аргумент: преобразование "int" в "const float", возможна потеря данных
+D:\0Projects\EatAndBreathe\EatAndBreathe.cpp(582,140): warning C4305: аргумент: усечение из "double" в "T"
+          with
+          [
+              T=float
+          ]
+D:\0Projects\EatAndBreathe\EatAndBreathe.cpp(587,131): warning C4244: аргумент: преобразование "int" в "const float", возможна потеря данных
+D:\0Projects\EatAndBreathe\EatAndBreathe.cpp(587,149): warning C4305: аргумент: усечение из "double" в "T"
+          with
+          [
+              T=float
+          ]
+D:\0Projects\EatAndBreathe\EatAndBreathe.cpp(607,69): warning C4244: аргумент: преобразование "unsigned int" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+D:\0Projects\EatAndBreathe\EatAndBreathe.cpp(607,51): warning C4244: аргумент: преобразование "unsigned int" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+D:\0Projects\EatAndBreathe\EatAndBreathe.cpp(657,96): warning C4244: аргумент: преобразование "unsigned int" в "float", возможна потеря данных
+D:\0Projects\EatAndBreathe\EatAndBreathe.cpp(657,57): warning C4244: аргумент: преобразование "unsigned int" в "float", возможна потеря данных
+D:\0Projects\EatAndBreathe\EatAndBreathe.cpp(658,94): warning C4244: аргумент: преобразование "unsigned int" в "float", возможна потеря данных
+D:\0Projects\EatAndBreathe\EatAndBreathe.cpp(658,55): warning C4244: аргумент: преобразование "unsigned int" в "float", возможна потеря данных
+D:\0Projects\EatAndBreathe\EatAndBreathe.cpp(660,62): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+D:\0Projects\EatAndBreathe\EatAndBreathe.cpp(661,63): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+D:\0Projects\EatAndBreathe\EatAndBreathe.cpp(670,88): warning C4244: аргумент: преобразование "T" в "float", возможна потеря данных
+          with
+          [
+              T=int
+          ]
+D:\0Projects\EatAndBreathe\EatAndBreathe.cpp(670,55): warning C4244: аргумент: преобразование "T" в "float", возможна потеря данных
+          with
+          [
+              T=int
+          ]
+D:\0Projects\EatAndBreathe\EatAndBreathe.cpp(671,86): warning C4244: аргумент: преобразование "T" в "float", возможна потеря данных
+          with
+          [
+              T=int
+          ]
+D:\0Projects\EatAndBreathe\EatAndBreathe.cpp(671,53): warning C4244: аргумент: преобразование "T" в "float", возможна потеря данных
+          with
+          [
+              T=int
+          ]
+D:\0Projects\EatAndBreathe\EatAndBreathe.cpp(673,56): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+D:\0Projects\EatAndBreathe\EatAndBreathe.cpp(674,56): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+D:\0Projects\EatAndBreathe\EatAndBreathe.cpp(805,106): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+D:\0Projects\EatAndBreathe\EatAndBreathe.cpp(808,73): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+D:\0Projects\EatAndBreathe\EatAndBreathe.cpp(824,47): warning C4244: аргумент: преобразование "float" в "const int", возможна потеря данных
+D:\0Projects\EatAndBreathe\EatAndBreathe.cpp(833,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+D:\0Projects\EatAndBreathe\EatAndBreathe.cpp(845,107): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+D:\0Projects\EatAndBreathe\EatAndBreathe.cpp(845,74): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+D:\0Projects\EatAndBreathe\EatAndBreathe.cpp(881,114): warning C4244: аргумент: преобразование "int" в "const float", возможна потеря данных
+D:\0Projects\EatAndBreathe\EatAndBreathe.cpp(885,114): warning C4244: аргумент: преобразование "int" в "const float", возможна потеря данных
+D:\0Projects\EatAndBreathe\EatAndBreathe.cpp(889,114): warning C4244: аргумент: преобразование "int" в "const float", возможна потеря данных
+D:\0Projects\EatAndBreathe\EatAndBreathe.cpp(893,114): warning C4244: аргумент: преобразование "int" в "const float", возможна потеря данных
+D:\0Projects\EatAndBreathe\EatAndBreathe.cpp(897,114): warning C4244: аргумент: преобразование "int" в "const float", возможна потеря данных
+D:\0Projects\EatAndBreathe\EatAndBreathe.cpp(901,114): warning C4244: аргумент: преобразование "int" в "const float", возможна потеря данных
+D:\0Projects\EatAndBreathe\EatAndBreathe.cpp(905,114): warning C4244: аргумент: преобразование "int" в "const float", возможна потеря данных
+D:\0Projects\EatAndBreathe\EatAndBreathe.cpp(912,114): warning C4244: аргумент: преобразование "int" в "const float", возможна потеря данных
+D:\0Projects\EatAndBreathe\EatAndBreathe.cpp(916,114): warning C4244: аргумент: преобразование "int" в "const float", возможна потеря данных
+D:\0Projects\EatAndBreathe\EatAndBreathe.cpp(920,114): warning C4244: аргумент: преобразование "int" в "const float", возможна потеря данных
+D:\0Projects\EatAndBreathe\EatAndBreathe.cpp(924,114): warning C4244: аргумент: преобразование "int" в "const float", возможна потеря данных
+D:\0Projects\EatAndBreathe\EatAndBreathe.cpp(974,96): warning C4244: аргумент: преобразование "unsigned int" в "float", возможна потеря данных
+D:\0Projects\EatAndBreathe\EatAndBreathe.cpp(974,57): warning C4244: аргумент: преобразование "unsigned int" в "float", возможна потеря данных
+D:\0Projects\EatAndBreathe\EatAndBreathe.cpp(976,62): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+D:\0Projects\EatAndBreathe\EatAndBreathe.cpp(977,63): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+D:\0Projects\EatAndBreathe\EatAndBreathe.cpp(986,88): warning C4244: аргумент: преобразование "T" в "float", возможна потеря данных
+          with
+          [
+              T=int
+          ]
+D:\0Projects\EatAndBreathe\EatAndBreathe.cpp(986,55): warning C4244: аргумент: преобразование "T" в "float", возможна потеря данных
+          with
+          [
+              T=int
+          ]
+D:\0Projects\EatAndBreathe\EatAndBreathe.cpp(988,56): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+D:\0Projects\EatAndBreathe\EatAndBreathe.cpp(989,56): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+D:\0Projects\EatAndBreathe\EatAndBreathe.cpp(1037,26): warning C4305: аргумент: усечение из "double" в "const float"
+D:\0Projects\EatAndBreathe\EatAndBreathe.cpp(1045,21): warning C4305: аргумент: усечение из "double" в "float"
+D:\0Projects\EatAndBreathe\EatAndBreathe.cpp(1047,45): warning C4305: аргумент: усечение из "double" в "const float"
+D:\0Projects\EatAndBreathe\EatAndBreathe.cpp(1047,83): warning C4305: аргумент: усечение из "double" в "const float"
+D:\0Projects\EatAndBreathe\EatAndBreathe.cpp(1047,121): warning C4305: аргумент: усечение из "double" в "const float"
+D:\0Projects\EatAndBreathe\EatAndBreathe.cpp(1077,26): warning C4244: аргумент: преобразование "float" в "const int", возможна потеря данных
+D:\0Projects\EatAndBreathe\EatAndBreathe.cpp(1093,40): warning C4305: аргумент: усечение из "double" в "const float"
+D:\0Projects\EatAndBreathe\EatAndBreathe.cpp(1093,74): warning C4305: аргумент: усечение из "double" в "const float"
+  Создание кода
+  5 of 1540 functions ( 0.3%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    42 functions had inline decision re-evaluated but remain unchanged
+  Создание кода завершено
+  EatAndBreathe.vcxproj -> D:\0Projects\EatAndBreathe\x64\Release\EatAndBreathe.exe
