@@ -17,8 +17,9 @@ private:
 public:
 	Button(sf::String s,const int& char_s, const sf::Font& f,const float& sz);
 	Button(const sf::Texture& t,const float& sz);
-	virtual void Draw(sf::RenderWindow& window, const float& deltaTime);
+	virtual void Draw(sf::RenderWindow& window);
 	bool Check(sf::RenderWindow& window, const bool& left_mouse_pressed, const bool& left_mouse_released, const bool& is_left_mouse_pressed=0);
+	bool MouseOnButton(sf::RenderWindow& window);
 	void SetTexture(const sf::Texture& t);
 	void SetFunc(void(*f)());
 	void SetPosition(const sf::Vector2f& v);
@@ -27,4 +28,6 @@ public:
 	const float& GetScale()const;
 	void Flip();
 	const sf::Vector2f& GetPosition()const;
+	void SetRotation(float r);
+	sf::Sprite& GetSpriteRef();
 };

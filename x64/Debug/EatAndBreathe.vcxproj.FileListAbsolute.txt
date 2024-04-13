@@ -3,3 +3,5 @@ E:\EatAndBreathe\x64\Debug\EatAndBreathe.exe
 D:\!Дорох Т-192\EatAndBreathe\x64\Debug\EatAndBreathe.pdb
 D:\Projects\EatAndBreathe\x64\Debug\EatAndBreathe.exe
 D:\0Projects\EatAndBreathe\x64\Debug\EatAndBreathe.exe
+D:\Pr\EatAndBreathe\x64\Debug\EatAndBreathe.exe
+D:\Дорох\EatAndBreathe\x64\Debug\EatAndBreathe.exe

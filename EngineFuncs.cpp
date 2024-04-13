@@ -37,3 +37,31 @@ void replaceAll(std::string& str, const std::string& from, const std::string& to
 		start_pos += to.length(); // In case 'to' contains 'from', like replacing 'x' with 'yx'
 	}
 }
+
+std::string to_lower(std::string s) {
+	for (auto& c : s) {
+		c = std::tolower(c);
+	}
+	return s;
+}
+
+void RotateTo(sf::Sprite& s,float x, float y, float offset) {
+
+	float dx = x - s.getPosition().x;
+	float dy = y - s.getPosition().y;
+
+	float rotation = atan2(dy, dx);
+	rotation *= 180 / PI;
+
+	s.setRotation(rotation + offset);
+}
+void RotateTo(sf::Sprite& s,const sf::Vector2f& p, float offset) {
+
+	float dx = p.x - s.getPosition().x;
+	float dy = p.y - s.getPosition().y;
+
+	float rotation = atan2(dy, dx);
+	rotation *= 180 / PI;
+
+	s.setRotation(rotation + offset);
+}

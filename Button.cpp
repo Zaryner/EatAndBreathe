@@ -31,7 +31,7 @@ Button::Button(const sf::Texture& t, const float& sz) {
 	flip = 0;
 }
 
-void Button::Draw(sf::RenderWindow& window, const float& deltaTime) {
+void Button::Draw(sf::RenderWindow& window) {
 	window.draw(sprite);
 	window.draw(text);
 }
@@ -66,6 +66,10 @@ bool Button::Check(sf::RenderWindow& window, const bool& left_mouse_pressed, con
 	return r;
 }
 
+bool Button::MouseOnButton(sf::RenderWindow& window) {
+	return sprite.getGlobalBounds().contains(window.mapPixelToCoords(sf::Mouse::getPosition(window)))
+		|| text.getGlobalBounds().contains(window.mapPixelToCoords(sf::Mouse::getPosition(window)));
+}
 
 void  Button::SetTexture(const sf::Texture& t) {
 	sprite.setTexture(t);
@@ -91,4 +95,12 @@ void Button::Flip() {
 }
 const sf::Vector2f& Button::GetPosition()const {
 	return sprite.getPosition();
+}
+void Button::SetRotation(float r) {
+	sprite.setRotation(r);
+	text.setRotation(r);
+}
+
+sf::Sprite& Button::GetSpriteRef() {
+	return sprite;
 }
