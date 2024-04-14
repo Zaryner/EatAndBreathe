@@ -1472,7 +1472,7 @@ int main_game() {
 	int fps = 0;
 
 	sf::Time lastFps = sf::seconds(0);
-	sf::Time night_chage_time = sf::seconds(9999999999);
+	sf::Time night_chage_time = sf::seconds(320);
 	sf::Time night_change_timer = night_chage_time;
 
 	last_near_ao_update = sf::seconds(-2);
@@ -1554,9 +1554,13 @@ int main_game() {
 			map_active_objects.push_back(new Fleeing(*static_cast<Fleeing*>(base_entity[99])));
 			map_active_objects[map_active_objects.size() - 1]->Transform({ 800.f + std::rand() % 8000,800.f + std::rand() % 7400 }, base_entity[99]->GetSize(), -20 + std::rand() % 20);
 		}
-		for (int i = 0; i < 120; i++) {
+		for (int i = 0; i < 80; i++) {
 			map_active_objects.push_back(new Enemy(*static_cast<Enemy*>(base_entity[100])));
 			map_active_objects[map_active_objects.size() - 1]->Transform({ 800.f + std::rand() % 8000,800.f + std::rand() % 7400 }, base_entity[100]->GetSize(), -20 + std::rand() % 20);
+		}
+		for (int i = 0; i < 50; i++) {
+			map_active_objects.push_back(new Enemy(*static_cast<Enemy*>(base_entity[102])));
+			map_active_objects[map_active_objects.size() - 1]->Transform({ 800.f + std::rand() % 8000,800.f + std::rand() % 7400 }, base_entity[102]->GetSize(), -20 + std::rand() % 20);
 		}
 		for (int i = 0; i < 1; i++) {
 			map_active_objects.push_back(new Enemy(*static_cast<Enemy*>(base_entity[101])));

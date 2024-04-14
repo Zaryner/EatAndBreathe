@@ -819,7 +819,10 @@ void Animal::PlayHurtAnimation(const float& deltaTime, const bool& night) {
 
 	if (hurt_anim_time <= hurt_ms && hurt_anim_time - last_hurt_time >= hurt_delay_ms) {
 		last_hurt_time = hurt_anim_time;
-		auto sp = sf::Color(sprite.getColor());
+		auto sp = sf::Color(base_color);
+		if (night) {
+			sp = sf::Color(night_color);
+		}
 		if (hurt_anim_time <= hurt_ms / 2.0f) {
 			if (sp.g - spd >= 0)sp.g -= spd;
 			if (sp.b - spd >= 0)sp.b -= spd;
@@ -849,10 +852,10 @@ void Animal::PlayHurtAnimation(const float& deltaTime, const bool& night) {
 }
 void Animal::PlayIdleAnimation(const float& deltaTime) {
 
-	sf::Time stretch_ms = sf::milliseconds(2200), wait_ms = sf::milliseconds(100), pause = sf::milliseconds(140);
+	sf::Time stretch_ms = sf::milliseconds(2600), wait_ms = sf::milliseconds(100), pause = sf::milliseconds(140);
 	sf::Time max_time = stretch_ms + wait_ms + pause;
 
-	float spd = 0.0004f * b_size.x * b_size.y;
+	float spd =  b_size.x * b_size.y*deltaTime*0.2;
 
 	if (idle_anim_time < stretch_ms) {
 		if (idle_anim_time < stretch_ms / 2.f) {
@@ -1476,7 +1479,10 @@ void Player::PlayHurtAnimation(const float& deltaTime, const bool& night) {
 
 	if (hurt_anim_time <= hurt_ms && hurt_anim_time - last_hurt_time >= hurt_delay_ms) {
 		last_hurt_time = hurt_anim_time;
-		auto la = sf::Color(left_arm.getColor()), ra = sf::Color(right_arm.getColor()), sp = sf::Color(sprite.getColor());
+		auto la = sf::Color(base_color), ra = sf::Color(base_color), sp = sf::Color(base_color);
+		if (night) {
+			la = sf::Color(night_color), ra = sf::Color(night_color), sp = sf::Color(night_color);
+		}
 		if (hurt_anim_time <= hurt_ms / 2.0f) {
 			if (sp.g - spd >= 0)sp.g -= spd;
 			if (sp.b - spd >= 0)sp.b -= spd;
