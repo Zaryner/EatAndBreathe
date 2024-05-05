@@ -421,7 +421,7 @@ void DrawRecipes(sf::RenderWindow& window, const settings& my_settings, const in
 	std::vector<sf::Sprite> cell(available_recipes, sf::Sprite(inventory_cell_texture[3]));
 	std::vector<sf::Sprite>recipe_sprite;
 	sf::Sprite descrSp(inventory_cell_texture[2]);
-	descrSp.setScale(0.35 * ScreenScaler, 0.185 * ScreenScaler);
+	descrSp.setScale(0.44 * ScreenScaler, 0.185 * ScreenScaler);
 	descrSp.setColor(sf::Color(5, 5, 5, 200));
 	sf::Text item_description, item_name;
 
@@ -539,7 +539,7 @@ void DrawInventory(sf::RenderWindow& window, const settings& my_settings, const 
 
 	std::vector<sf::Sprite> inventory_cell(player.InventoryCapacity(), sf::Sprite(inventory_cell_texture[3]));
 	sf::Sprite descrSp(inventory_cell_texture[2]);
-	descrSp.setScale(0.35 * ScreenScaler, 0.185 * ScreenScaler);
+	descrSp.setScale(0.44 * ScreenScaler, 0.185 * ScreenScaler);
 	descrSp.setColor(sf::Color(5, 5, 5, 200));
 	sf::Text item_count, item_description, item_name;
 
