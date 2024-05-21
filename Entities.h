@@ -270,7 +270,7 @@ public:
 	virtual float GetDamage()const;
 	virtual void SetDamage(float v);
 
-	virtual const float& GetHp()const;
+	virtual float GetHp()const;
 	virtual void SetHp(const float& v);
 
 	virtual float GetMaxHp()const;
@@ -433,7 +433,7 @@ public:
 	void PlayHurtAnimation(const float& deltaTime);
 	virtual void ChangeStats(const float& hp, const float& def);
 
-	virtual const float& GetHp()const;
+	virtual float GetHp()const;
 	virtual void SetHp(const float& v);
 };
 class MapDamaging :public MapEntity {

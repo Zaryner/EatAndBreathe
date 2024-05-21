@@ -728,7 +728,7 @@ float Animal::GetDamage() const {
 void Animal::SetDamage(float v) {
 	this->damage = v;
 }
-const float& Animal::GetHp() const {
+float Animal::GetHp() const {
 	if (hp < 1.f)return 0.f;
 	return hp;
 }
@@ -1739,7 +1739,7 @@ void MapEntity::ChangeStats(const float& hp, const float& def) {
 	this->def = def;
 }
 
-const float& MapEntity::GetHp() const {
+float MapEntity::GetHp() const {
 	if (hp < 1.f)return 0.f;
 	return hp;
 }
