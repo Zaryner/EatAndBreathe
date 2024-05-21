@@ -416,7 +416,7 @@ public:
 class MapEntity :public MapActiveObject {
 protected:
 	float hp;
-	float def;
+	float def =0;
 
 	sf::Time hurt_anim_time;
 	bool is_hurt_anim_play;

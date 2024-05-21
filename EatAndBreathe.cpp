@@ -1664,8 +1664,8 @@ int main_game() {
 			}
 			else if (event.type == sf::Event::MouseWheelScrolled) {
 				if (states::locked_vision) {
-					main_view.zoom(1 - event.mouseWheelScroll.delta * 25 * delta_time);
-					states::locked_vision_zoom /= 1 - event.mouseWheelScroll.delta * 25 * delta_time;
+					main_view.zoom(1 - event.mouseWheelScroll.delta * 0.1);
+					states::locked_vision_zoom /= 1 - event.mouseWheelScroll.delta * 0.1;
 				}
 			}
 			else if (event.type == sf::Event::KeyPressed) {
