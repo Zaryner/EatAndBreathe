@@ -1304,8 +1304,8 @@ void Player::CheckStats(const float& delta_time, const bool& player_on_water, co
 		SetHp(hp - 1.4f * delta_time);
 	}
 
-	if (GetHunger() >= 75 && GetWater() >= 75 && GetTempreture() >= 75) {
-		SetHp(hp + 0.9f * delta_time);
+	if (GetHunger() >= 65 && GetWater() >= 65 && GetTempreture() >= 65) {
+		SetHp(hp + 1.1f * delta_time);
 	}
 
 }
